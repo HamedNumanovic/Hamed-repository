@@ -1,0 +1,32 @@
+.prvi{
+    position: absolute;
+    width: 70px;
+    height: 400px;
+    border: 1px solid grey;
+    left: 20px;
+    top: 10px;
+}
+.drugi{
+    position: absolute;
+    border: 1px solid grey;
+    height: 400px;
+    width: 70px;
+    left: 120px;
+    top: 10px;
+}
+.treci{
+    position: absolute;
+    border: 1px solid grey;
+    height: 400px;
+    width: 70px;
+    left: 220px;
+    top: 10px;
+}
+.cetvrti{
+    position: absolute;
+    border: 1px solid grey;
+    height: 400px;
+    width: 70px;
+    left: 320px;
+    top: 10px;
+}

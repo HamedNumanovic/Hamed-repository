@@ -1,5 +1,5 @@
 #iks{
-    margin-left: 240px;
+    margin-left: 230px;
     color: white;
     margin-top: 7px;
     cursor: pointer;
@@ -39,9 +39,9 @@
 }
 
 #glavnidiv{
-    width: 60%;
+    width: 50%;
     margin-left: 220px;
-    
+    border: 1px solid lightgrey;
 }
 
 .desniinputi{
