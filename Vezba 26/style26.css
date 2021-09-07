@@ -1,0 +1,90 @@
+.glavnidiv{
+    position: absolute;
+    border: 1px solid white;
+    width: 98%;
+    height: 95%;
+}
+#dugme1{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    margin-top: 150px;
+    margin-left: 5%;
+    color: black;
+    background-color: aquamarine;
+    transition: all 1s ease-out;
+}
+#dugme1:hover{
+    transform: scale(300deg);
+    width: 200px;
+    height: 150px;
+    background-color: rgb(18, 155, 114);
+    font-size: 35px;
+    border: 1px solid rgb(18, 155, 114);
+}
+
+#dugme2{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    margin-top: 150px;
+    margin-left: 30%;
+    color: black;
+    background-color: orange;
+    transition: all 1s ease-in;
+}
+#dugme2:hover{
+    transform: rotate(1080deg);
+    width: 200px;
+    height: 150px;
+    background-color: rgb(187, 19, 19);
+    font-size: 35px;
+    border: 1px solid rgb(187, 19, 19);
+}
+
+#dugme3{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    margin-top: 150px;
+    margin-left: 55%;
+    color: black;
+    transition: all 1s ease;
+}
+#dugme3:hover{
+    transform: skew(30deg);
+    width: 200px;
+    height: 150px;
+    background-color: gold;
+    font-size: 35px;
+    border: 1px gold solid;
+}
+#dugme4{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    margin-top: 150px;
+    margin-left: 82%;
+    color: black;
+    background-color: peachpuff;
+    transition: all 1s ease-in-out;
+}
+#dugme4:hover{
+    transform: matrix3d(200deg);
+    width: 200px;
+    height: 150px;
+    background-color: rgb(255, 252, 93);
+    font-size: 35px;
+    border: 1px rgb(255, 252, 93);
+}
+#naslov{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    color: rgb(66, 62, 62);
+
+}

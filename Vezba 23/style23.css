@@ -1,0 +1,34 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.glavnidiv{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+.liste{
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+}
+.dugme{
+    border: 1px solid rgb(85, 82, 82);
+    width: 80px;
+    height: 25px;
+    cursor: pointer;
+    margin-top: 7px;
+    background-color: white;
+    border-radius: 2px;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+}
+li{
+    margin: 0px 10px;
+}
+.tailblock{
+    font-size: 22px;
+    margin-left: 80%;
+}
