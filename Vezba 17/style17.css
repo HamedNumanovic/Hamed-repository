@@ -11,17 +11,17 @@
 
 #nav1{
     width: 20%;
-    height: 400px;
+    height: 500px;
     background-color: yellow;
     padding: 20px;
-    margin-top: 10px;
+    margin-top: 20px;
     display: inline-block;
 }
 
 #article1{
     display: inline-block;
     width: 47.4%;
-    height: 400px;
+    height: 500px;
     background-color: yellow;
     padding: 20px;
     margin-top: 10px;
@@ -31,8 +31,8 @@
 
 #ads1{
     display: inline-block;
-    width: 20%;
-    height: 400px;
+    width: 21.2%;
+    height: 500px;
     background-color: yellow;
     padding: 20px;
     margin-top: 10px;
@@ -43,9 +43,8 @@ body{
 }
 
 #footer1{
-    width: 95%;
+    width: 94.4%;
     background-color: yellow;
-    padding: 25px;
-    margin-top: 10px;
-
+    padding: 30px;
+    margin-top: 15px;
 }
