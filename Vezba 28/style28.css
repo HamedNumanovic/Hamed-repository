@@ -49,13 +49,13 @@
     padding-left: 25px;
   }
   @media  screen and (max-width: 375px) {
-      .glavnidiv{
-          width: 321px;
-          display: flex;
-          justify-content: center;
-          flex-wrap: wrap;
-      }
-  }
+    .glavnidiv{
+        width: 321px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
   @media  screen and (max-width: 920px) {
       .tekst{
           font-size: 14px;

@@ -1,0 +1,29 @@
+.glavnidiv{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    border: 1rem solid black;
+}
+.div1{
+    background-color: aqua;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.div2{
+    background-color: burlywood;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+.div3{
+    background-color: blue;
+}
+.div4{
+    background-color: green;
+}
+.div5{
+    background-color: greenyellow;
+    display: none;
+}
+.box{
+    padding: 4rem;
+    border: 1px solid black;
+}

@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+.glavnidiv{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    border: 3px solid black;
+    padding: 5px;
+    border-radius: 15px;
+    margin-left: 115px;
+    width: 85%;
+}
+.box{
+    padding: 4.5rem;
+    text-align: center;
+}
+.div1{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    background-color: orange;
+    border-radius: 15px;
+    border: 3px solid rgb(209, 136, 1);
+}
+.div2{
+    background-color: lightskyblue;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    border-radius: 15px;
+    border: 3px solid rgb(82, 187, 252);
+}
+.div3{
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+.div4{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    background-color: rgb(255, 71, 71);
+    border-radius: 15px;
+    border: 3px solid rgb(253, 54, 54);
+}
+.div5{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    background-color: rgb(116, 255, 116);
+    border-radius: 15px;
+    border: 3px solid rgb(70, 255, 70);
+}
