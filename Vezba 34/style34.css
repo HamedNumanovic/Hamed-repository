@@ -1,0 +1,50 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(glavnaslika.jpg);
+    font-family: "Poppins", sans-serif;
+    color: white;
+}
+.text-centar{
+    text-align: center;
+}
+#title{
+    color: white;
+}
+h1{
+    display: block;
+    font-size: 2em
+}
+#paragraf1{
+    color: white;
+    text-align: center;
+}
+.glavnaslika{
+    width: 100%;
+    height: 100%;
+}
+.glavnidiv{
+    background-color: rgba(3, 15, 83, 0.466);
+    height: 150vh;
+    width: 50%;
+}
+.inputi{
+    height: 30px;
+    width: 310px;
+    margin-left: 30px;
+    border: 1.6px solid lightgray;
+}
+.labeli{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+form{
+    display: block;
+    margin-top: 0px;
+}
+.flexic{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,142 @@
+body{
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+}
+.glavnidiv{
+    display: flex;
+    justify-content: space-evenly;
+}
+.kontakt{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    padding-left: 122px;
+    width: 100%;
+    height: 40px;
+    background: rgb(240, 239, 239)
+}
+.ikonica{
+    margin-left: 9px;
+    color: red;
+}
+.ikonica2{
+    margin-left: 20px;
+    color: red;
+}
+.ikonica3{
+    margin-left: 9px;
+    transition: 0.4s ease;
+}
+.ikonica3:hover{
+    color: red;
+}
+.mail-countainer{
+    margin-left: 8px;
+    cursor: pointer;
+    transition: ease 0.4s; 
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: black;
+    text-decoration: none;
+}
+.mail-countainer:hover{
+    color: red;
+}
+.paragraf{
+    margin-left: 9px;
+    transition: 0.4s ease;
+    cursor: pointer;
+    color: black;
+    text-decoration: none;  
+}
+.paragraf:hover{
+    color: red;
+}
+.ikoniceulevomuglu{
+    cursor: pointer;
+    margin-left: 860px;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+}
+.prvih{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    margin-left: 128px;
+    cursor: pointer;
+    font-size: 29px;
+}
+.lista{
+    list-style-type: none;
+    display: flex;
+    margin-left: 416px;
+}
+.listic{
+    margin-left: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    color: rgb(53, 53, 53);
+    cursor: pointer;
+    transition: ease 0.4s;
+    font-size: 13px;
+}
+.listic:hover{
+    color: red;
+}
+#slika1{
+    width: 98,8vw;
+    height: 70vh;
+}
+img{
+    display: flex;
+    object-fit: cover;
+    width: 100%;
+    margin-top: 5px;
+    z-index: -2;
+}
+.text-ispod-slike{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 100px 30px 0px;
+    background: rgb(236, 236, 236);
+}
+.text-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.spantext{
+    color: red;
+}
+#h1-ispod-slike{
+    color: rgb(54, 54, 54);
+}
+#paragraf1{
+    width: 80%;
+    text-align: center;
+    font-size: 18px;
+    color: rgb(48, 48, 48);
+    margin-top: 0;
+}
+.button-container{
+    border-radius: 4px;
+    border-color: orangered;
+    color: orangered;
+    cursor: pointer;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1.5px;
+    width: 19%;
+    height: 44.5px;
+    transition: 0.5s;
+}
+.button-container:hover{
+    background-color: orangered;
+    color: white;
+}

@@ -1,0 +1,53 @@
+.glavnidiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.dugme{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 60px;
+    margin-top: 30px;
+    margin-left: 50px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+#dugme1{
+    background-image: linear-gradient(to left, blue, red);
+}
+#dugme2{
+    background-image: linear-gradient(to left, black, white);
+}
+#dugme3{
+    background-image: linear-gradient(to right, aqua, blue);
+}
+#dugme4{
+    background-image: linear-gradient(to right, white, wheat);
+}
+#dugme5{
+    background-image: linear-gradient(to left, yellow, green);
+}
+#dugme6{
+background-image: linear-gradient(to right, brown, red);
+}
+#dugme7{ 
+background-image: linear-gradient(to right, silver, gold); 
+}
+#dugme8{
+    background-image: linear-gradient(to right, pink, purple);
+}
+#dugme9{
+    background-image: linear-gradient(to right, rgb(83, 5, 83), rgb(255, 50, 255));
+}
+#dugme10{
+    background-image: linear-gradient(to right, pink, rgb(255, 255, 85));
+}
+#dugme11{
+    background-image: linear-gradient(to right, lime, lightblue );
+}
+#dugme12{
+    background-image: linear-gradient(to right, brown, lightpink, wheat);
+}
